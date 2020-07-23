@@ -41,7 +41,7 @@ Table OF Contents
 .whatsapp {
     position: fixed;
     top: 82%;
-    right:5%;
+    right:1%;
     padding: 10px;
     z-index: 10000000;
 }
