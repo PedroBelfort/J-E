@@ -41,7 +41,7 @@ Table OF Contents
 .whatsapp {
     position: fixed;
     top: 82%;
-    right:1%;
+    right:5%;
     padding: 10px;
     z-index: 10000000;
 }
@@ -125,7 +125,8 @@ ul,ol{
 /* --- Background Section --- */
 
 .bg-main {
-	background-color: #FFD626;
+	/*background-color: #FFD626; */
+	background-color: rgba(255, 214, 38, .1 )
 }
 
 .bg-grey {
@@ -996,9 +997,25 @@ textarea {
 	margin-bottom: 15px;
 }
 
+.circle {
+	border-radius: 15%;
+	width: 150px;
+	height: 170px;
+	overflow: hidden;
+	position: relative;
+	border: 4px solid #FFD626;
+  }
+  
+  .circle img {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  }
+
 .blog .blog-img {
 	position: relative;
 	border-bottom: 4px solid #FFD626;
+	border-radius: 50%;
 }
 
 .blog .blog-img > img {
