@@ -164,7 +164,7 @@ ul,ol{
 	right: 0;
 	top: 0;
 	bottom: 0;
-	opacity: 0.9;
+	opacity: .95;
 }
 
 .bg-img.overlay:after {
@@ -333,6 +333,10 @@ textarea {
 
 .navbar-brand .logo > img {
 	max-height: 40px;
+}
+
+.navbar-center {
+	text-align: center;
 }
 
 /*------------------------------------*\
@@ -849,7 +853,7 @@ textarea {
 	transition: 0.2s opacity;
 }
 .portfolio:hover .overlay {
-	opacity: 0.8;
+	opacity: .3;
 }
 
 .portfolio .portfolio-content {
